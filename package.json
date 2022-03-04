@@ -1,0 +1,28 @@
+{
+  "name": "simple-calc-webpack",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:dev": "webpack  --env NODE_ENV=development",
+    "build:prod": "webpack  --env NODE_ENV=production",
+    "start:dev": "webpack-dev-server --env NODE_ENV=development",
+    "start:prod": "webpack-dev-server --env NODE_ENV=production",
+    "start": "webpack-dev-server"
+
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "html-webpack-plugin": "^5.5.0",
+    "webpack": "^5.69.1",
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^4.7.4"
+  },
+  "dependencies": {
+    "css-loader": "^6.6.0",
+    "extract-css-chunks-webpack-plugin": "^4.9.0"
+  }
+}
